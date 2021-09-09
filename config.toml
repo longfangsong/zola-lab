@@ -1,0 +1,24 @@
+# The URL the site will be built for
+base_url = "https://example.com"
+description = "test-description"
+compile_sass = true
+build_search_index = true
+[markdown]
+highlight_code = true
+
+[extra]
+
+title = "title"
+default_language = "fr"
+[translations]
+title = "translations.title"
+
+[languages.fr]
+title = "languages.fr.title"
+[languages.fr.translations]
+home = "languages.fr.translations.home"
+
+[languages.en]
+title = "languages.en.title"
+[languages.en.translations]
+home = "languages.fr.translations.home"
